@@ -1,3 +1,9 @@
+# Setup oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+
 # Use Homebrew-installed curl
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/curl/lib"
